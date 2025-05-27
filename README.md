@@ -292,7 +292,7 @@ The frontend is a simple React app built using **Vite**, located inside the `cli
    ```
 ---
 
-#⚠️ Note on Render Server Downtime
+##⚠️ Note on Render Server Downtime
 
 The backend for this project is deployed on Render. Occasionally, the Render server may return a 502 Bad Gateway error due to cold starts or temporary downtime (especially if the service has been idle).
 If this happens, wait about 1 minute, then try hitting the API once or twice. The server should start responding normally after that.
